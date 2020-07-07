@@ -1,0 +1,227 @@
+<div class="main-container">
+  <!-- Banner -->
+  <div class="header">
+    <img [src]="banner" class="banner" alt="" />
+  </div>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="home.component.html"
+      ><i class="fa fa-home" aria-hidden="true"></i> HOME</a
+    >
+    <a href="#work"><i class="fa fa-briefcase" aria-hidden="true"></i> WORKS</a>
+    <a href="#comp"
+      > <i class="fa fa-desktop" aria-hidden="true"></i> COMP</a
+    >
+    <a href="#training"
+      ><i class="fa fa-server" aria-hidden="true"></i> TRAINING</a
+    >
+  </div>
+
+  
+<!-- Body -->
+<div class="flexbox-container">
+  
+  <!-- flex-item  1 START-->
+  <div class="flexbox-item flexbox-item-1">
+    
+    <div class="stef">
+      <img [src]="mypicx" class="mypicco" alt="" />
+    </div>
+
+    <h3 class="myname">{{myname}}</h3>
+
+    <hr class="hrline" />
+  
+    <div class="mydesc">
+      <img src="" alt="" /><i class="fa fa-user-o" aria-hidden="true"></i>
+      <span class="mydescs"> <b>Aspiring Web Developer</b> </span>
+    </div>
+ 
+    <div class="mydesc">
+      <img src="" alt="" /><i class="fa fa-envelope-o" aria-hidden="true"></i
+      ><span class="mydescs"> {{mail}}</span>
+    </div>
+
+    <div class="mydesc">
+      <img src="" alt="" /><i class="fa fa-linkedin" aria-hidden="true"></i
+      ><span class="mydescs"> Stefany Caliao</span>
+    </div>
+ 
+
+    <br>
+
+    <!-- Academics -->
+    <div><p class="side-text">ACADEMICS</p></div>
+
+    <div class="mydesc">
+      <i class="fa fa-certificate" aria-hidden="true"></i><span class="mydescs"> [2020] Dean's Lister </span>
+    </div>
+
+    <div class="mydesc">
+      <i class="fa fa-trophy" aria-hidden="true"></i><span class="mydescs"> [2018] 2<sup>nd </sup>- IT Academic Quiz</span>
+    </div>
+    <br>
+
+    <div><p class="side-text">MICROSOFT OFFICE</p></div>
+   
+    <div class="mydesc">
+      <i class="fa fa-file-excel-o" aria-hidden="true"></i><span class="mydescs"> Microsoft Excel</span>
+    </div>
+    <div class="mydesc">
+      <i class="fa fa-server" aria-hidden="true"></i><span class="mydescs"> Microsoft Access</span>
+    </div><br>
+
+    <div><p class="side-text">EDITING TOOLS</p></div>
+    <div class="mydesc">
+      <i class="fa fa-picture-o" aria-hidden="true"></i><span class="mydescs">  Adobe Photoshop</span>
+    </div>
+
+    <div class="mydesc">
+      <i class="fa fa-file-video-o" aria-hidden="true"></i><span class="mydescs">  Cyberlink PowerDirector </span>
+    </div>
+  <!-- flex-item  1 END-->
+</div>
+
+
+
+ 
+  <!-- flex-item  2 START-->
+  <div class="flexbox-item flexbox-item-2">
+  
+      <div>
+
+          <div id="work" class="col-sm-6 pic p1" style="background: url('../../assets/Images/javapic.png') no-repeat center top;  background-size:cover;">
+            <p>Leave Management System <br>JAVA GUI and MYSQL</p>          
+          </div>
+          <div class="col-sm-6 pic p2" style="background: url('../../assets/Images/jsppic.png') no-repeat center top; background-size:cover;">
+            <p>Employee Leave Management System <br>JSP, MYSQL, HTML5 and CSS3</p>              
+          </div>
+          <div class="col-sm-4 pic p3" style=" background: url('../../assets/Images/mspic.png') no-repeat center top; background-size:cover;">
+              <p> Student Record System <br>Microsoft Access</p>
+            </div>
+          <div class="col-sm-4 pic p4" style="background: url('../../assets/Images/gmch.png') no-repeat center top;  background-size:cover;">
+              <p>GMCH <br> Immersion</p>
+          </div>
+          <div class="col-sm-4 pic p5" style=" background: url('../../assets/Images/monacopic.png') no-repeat center top; background-size:cover; ">
+            <p>Grand Monaco Homes <br> Admin and HR Deparment <br> Assistant for 2 months</p>
+        </div>
+          <div class="col-sm-6 pic p6" style="background: url('../../assets/Images/windowspic.png') no-repeat center top; background-size:cover;">
+              <p>Windows Server 2016 <br> Basic Administration <br>Practical Training</p>
+          </div>
+          <div class="col-sm-6 pic p7" style=" background: url('../../assets/Images/linuxpic.png') no-repeat center top; background-size:cover;" >
+              <p>Linux System Basic Administration <br>Practical Training </p>            
+          </div>
+      </div>
+  <!-- flex-item  2 END-->
+  </div>
+</div>
+
+
+
+  <!-- FlexBox 2nd row -->
+  <div class="flexb-container">
+  
+    <!-- flex-item  1 START-->
+    <div class="flexb-item flexb-item-1">
+      <div id="comp"><p class="prog-text">WEB DEVELOPMENT</p>
+      </div>
+        <img [src]="webdev" class="web" alt="Web Development">
+    <!-- flex-item  1 END-->
+    </div>
+   
+    <!-- flex-item  2 START-->
+    <div class="flexb-item flexb-item-2">
+      <div id="comp"><p class="prog-text">PROGRAMMING LANGUAGES</p></div>
+      <img [src]="progx" class="web" alt="">
+      <!-- flex-item  2 END-->
+    </div>
+  
+    <!-- Flexbox2 END -->
+  </div>
+
+
+  <!-- FlexBox 3nd row -->
+  <div class="flexbx-container">
+  
+    <!-- flex-item  1 START-->
+    <div class="flexbx-item flexbx-item-1">
+      <div id="training"><p class="prog-text">TRAININGS</p> </div>
+        
+      <div class="train-desc">
+          <hr class="hrtrain1">
+          <h4 class="tdesc train-text">Windows Server Administration</h4>
+          <p class="tdesc">[2020]</p>
+          <p class="tdesc">Topics: Windows Server 2016 Installation, Group Policy Objects, Understading Powershell, DHCP, Windows Deployment Services and Software Update Service, Hyper-V, Monitoring Windows Server 2016 and System Backup and Restore </p>
+        </div>
+
+      <div class="train-desc">
+          <hr class="hrtrain1">
+          <h4 class="tdesc train-text">Grand Monaco Homes</h4>
+          <p class="tdesc">[2019]</p>
+          <p class="tdesc">Responsible for encoding company information and maintenance and updation of softwares. Also works in desingning of Company ID and other flyer templates used for online posting. </p>
+      </div>
+
+      <div class="train-desc">
+          <hr class="hrtrain1">
+          <h4 class="tdesc train-text">Linux Administration</h4>
+          <p class="tdesc">[2018]</p>
+
+          <p class="tdesc">Topics: Linux Concepts, Installation and Configuration, File System, Linux Commands and Scripting, Basic System Administration, Linux Networking and Run Level and Disk Management </p>
+      </div>
+
+        
+    <!-- flex-item  1 END-->
+    </div>
+   
+
+    <div class="flexbx-item flexbx-item-2">
+      <div id="training"><p class="prog-text">REVIEWS</p> </div>
+      <div class="train-desc">
+        <img class="revpic" style="vertical-align:middle" src="../../assets/Images/gmrev.png">
+        <span><b> Rachelle Espela</b>
+      </span>
+      <p  class="train-rev">
+        "Ms. Caliao picks up instructions accurately, utilizes her skills efficiently, initiates to assist employees/ intern within the company. Overall, she is an effective admin assistant, if trained well, she will be an asset to her future employers and clients." 
+      </p>
+
+      </div>
+
+
+
+      <div class="train-desc">
+        <img class="revpic" style="vertical-align:middle" src="../../assets/Images/gmchrev.png">
+        <span><b> Kevin Boneo </b>
+      </span>
+      <p  class="train-rev2">
+        "She can work under minimal supervision and a punctual intern." 
+      </p>
+
+      </div>
+
+
+      <div class="train-desc">
+        <img class="revpic" style="vertical-align:middle" src="../../assets/Images/lsrev.png">
+        <span><b> Lorenzo Maglaya Jr. </b>
+      </span>
+      <p  class="train-rev2">
+        "Active learner, she is eager to learn new things." 
+      </p>
+
+      </div>
+
+
+
+    </div>
+  
+  
+    <!-- Flexbox2 END -->
+  </div>
+
+
+<!-- Footer -->
+<div class="footer">
+  <h5>All Rights Reserved 2020 | SC</h5>
+</div>
+
+

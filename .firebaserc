@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dict-39e14": {
+      "hosting": {
+        "my-app": [
+          "dict-39e14"
+        ]
+      }
+    }
+  }
+}
